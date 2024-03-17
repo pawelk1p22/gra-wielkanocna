@@ -47,3 +47,6 @@ Klikając klawisz "Escape" można wstrzymać oraz kontynuować grę
 |----------------|-------------------------------|-----------------------------| -|-|-|-
 |Normalny|Normalny            |3|32|1.5|9.729|3/17/2024, 9:42:33 PM
  - gracz może wyczyścić wynki
+
+### Uruchomienie gry
+Uruchom liveserver z visual studio code w głównym folderze projektu
