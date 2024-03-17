@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.score-table th,
+.score-table td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+
+.score-table th {
+  background-color: #d9d5f5;
+}
+
+.score-table td {
+  background-color: #eed6f5;
+}
+
+body,
+#menu {
+  color: #3e144b;
+  width: fit-content;
+  margin: 0 auto 0 auto;
+}
+
+#menu > * {
+  margin-top: 1rem;
+}
+
+section > * {
+  font-weight: 900;
+}
+
+input,
+select {
+  background-color: #f5ebd5;
+  color: #302433;
+  border: none;
+}
+
+input[type="number"] {
+  width: 4rem;
+}
+
+.class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: #32755b;
+  color: #d5f5e8;
+  border: none;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+button:hover {
+  filter: brightness(90%);
+}
